@@ -18,8 +18,9 @@ public class ClientSide {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(os));
 		
 		String data = "Apple";
+		System.out.println("sent1 "+data);
 		bw.write(data);
-		System.out.println("sent "+data);
+		System.out.println("sent2 "+data);
 		os.close();
 		System.out.println("socket:"+socket);
 		System.out.println("---End of Clinet------");
