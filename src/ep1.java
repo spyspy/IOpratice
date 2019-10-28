@@ -10,7 +10,7 @@ public class ep1 {
 		File file = new File(filePath, fileName);
 		
 		if(file.exists()) {
-			//IO Stream 會自己關閉
+			//IO Stream 會自己關閉55555
 			try(FileReader fr = new FileReader(file)) {
 				int _char;
 				while((_char = fr.read()) != -1) {
